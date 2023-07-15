@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+  </head>
+  <h1>Application Form</h1>
+  <body>
+    <br />
+    <br />
+    <form>
+      <!-- name -->
+      <label> Name : </label>
+      <input type="text" name="name" placeholder="Enter your name" size="15" />
+      <br />
+      <br />
+      <!-- email -->
+      <label> Email : </label>
+      <input type="text" name="name" placeholder="Enter your email" size="15" />
+      <br />
+      <br />
+      <!-- gender -->
+      <label> Gender : </label><br />
+      <input type="radio" name="gender" value="Male" />
+      <label for="Male">Male</label><br />
+      <input type="radio" name="gender" value="Female" />
+      <label for="Female">Female</label><br />
+      <br />
+      <!-- skills -->
+      <label> CHOOSE SKILLS : </label>
+      <br />
+      <input type="radio" id="html" name="skills" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="skills" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input type="radio" id="javascript" name="skills" value="JavaScript" />
+      <label for="javascript">JavaScript</label>
+      <br />
+      <br />
+      <!-- job type -->
+      <label>JOB TYPE</label>
+      <select name="language">
+        <option value="frontenddeveloper">Frontend Developer</option>
+        <option value="Backenddeveloper">Backend Developer</option>
+        <option value="Fullstackdeveloper">Fullstack Developer</option>
+      </select>
+      <!-- summary about you   -->
+      <br />
+      <br />
+      <label>Give a brief summary about you</label>
+      <br />
+      <textarea
+        name="welcomeMessage"
+        placeholder="write here"
+        rows="3"
+        cols="40"
+      ></textarea>
+      <br />
+      <!-- button -->
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
